@@ -1,9 +1,7 @@
 class Solution:
     def sortColors(self, nums: list[int]) -> None:
         """
-        Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
-
-        Here, we will use the Dutch National Flag algorithm.
+        Do not return anything, modify nums in-place instead.
         """
         r, w, b = 0, 0, len(nums)-1
         while w <= b:
