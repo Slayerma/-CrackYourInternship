@@ -1,5 +1,5 @@
 class Solution:
-    def reversePairs(self, nums: List[int]) -> int:
+    def reversePairs(self, nums: list[int]) -> int:
         self.count = 0
         def merge(left_arr, right_arr):
             # Step 1: Count the index satisfied condition first
